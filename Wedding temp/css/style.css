@@ -1,0 +1,1382 @@
+
+:root{
+   
+    --marg:0;
+    --padding:0;   
+   --head-font:"Arima Madurai",cursive;
+    --para-font:"Work Sans", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+ 
+   
+}
+
+.menubar-ham{
+    display: none;
+    position: absolute;
+    left: 15px ;
+    top: 150px;
+    width: 91%;
+    height: 100%;
+    z-index: 4;
+    background-color: #d48f4c;
+  
+}
+
+.menu-bar1{
+     position: relative;
+    top: 130px;
+   
+}
+.menu-bar1 li{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu-bar1 li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.gal-hover{
+    /* transition: 1.2s cubic-bezier(1, 1,0.6 ,0.2); */
+   
+}
+.gal-hover:hover{
+  
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        /* transition-duration: 1; */
+      
+
+}
+.navigation{
+    display: none;
+}
+.ham-ser{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hamburger{
+    font-size: 25px; 
+}
+.hamburger:hover{
+    color: #d48f4c;
+}
+.logo{
+    margin-top: 30px;
+}
+.search1{
+    color: #747e8c;
+    font-size: 22px;
+}
+.search1:hover{
+    color: #d48f4c;
+}
+.back-img{
+    width:90%;
+    margin: 0 auto;
+     height:700px;
+
+     /* background:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.3)),url(../images/background/hero-bg.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url(../images/background/hero-bg.jpg);
+
+
+     background-size: 100% 100%;
+     
+ }
+ 
+.back-content{
+    color: white; 
+    padding-top: 50px;
+}
+.div-img{
+    width: 280px;
+}
+
+.sep{
+    font-size: 20px;
+    font-family: var(--head-font);
+}
+.back-content h1{
+    font-size: 50px;
+    font-family: var(--head-font);
+}
+.back-para{
+    font-size: 18px;
+    font-family: var(--para-font);
+    margin-top: 30px;
+}
+.now-btn{
+    width: 150px;
+    height: 45px;
+    background-color: #d48f4c;
+    border: none;
+    color: white;
+    font-family: var(--head-font);
+    font-size: 18px;
+    margin-top: 20px;
+}
+.story{
+    margin-top: 80px;
+}
+.save{
+    font-size: 17px;
+    font-family: var(--para-font);
+    color: #747e8c;
+}
+.our{
+    font-size: 36px;
+    font-family: var(--head-font);
+    margin-bottom: 20px;
+    color:#353535;
+}
+.girl h1, .boy h1{
+    font-size: 30px;
+    font-family: var(--head-font);
+    color: #353535;
+    /* text-align: center; */
+}
+.benifit{
+    font-family: var(--para-font);
+    font-size: 15px;
+    margin-top: 20px;
+    color: #747e8c;
+    /* text-align: center; */
+}
+.couple-img{
+    width: 280px;
+    height: 300px;
+    margin-top: 50px;
+}
+.girl-boy{
+    margin-top: 60px;
+}
+.girl, .boy{
+    margin-top: 100px;
+}
+.three-icon i{
+    margin-left: 15px;
+    font-size: 18px;
+    color: #212529;
+}
+.girl{
+    /* margin-right: 40px; */
+}
+.date-section{
+    margin-top: 50px;
+}
+.date-con {
+    margin-top: 40px;
+    
+}
+.time-con h1{
+    font-size: 72px;
+    font-family: var(--head-font);
+     color: #353535;
+}
+.time-con p{
+    font-size: 20px;
+    color: #747e8c;
+}
+.galllery-title{
+    width: 90%;
+    background-image: url(../images/background/gallery-title.jpg);
+    background-size: 100% 100%;
+    height: 350px;
+    
+}
+.our-gal{
+    padding-top:100px;
+}
+.gal-1{
+    width: 267px;
+    height: 350px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.gal-2{
+    width: 267px;
+    height:180px ;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.gal-3{
+    width: 267px;
+    height: 350px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.gal-4{
+    width: 267px;
+    height:180px ;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.imgsec-one{
+}
+.gal-5{
+    width: 267px;
+    height:180px ;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.gal-6{
+    width: 267px;
+    height: 350px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.gal-7{
+    width: 267px;
+    height:180px ;
+    margin-left: 25px;
+    margin-bottom: 25px;
+
+}
+.gal-8{
+    width: 267px;
+    /* margin: 0 auto; */
+    height: 350px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+
+}
+.org-section{
+    margin-bottom: 100px;
+    margin-top: 50px;
+    
+}
+.galllery{
+    
+}
+.wedding-con h2{
+    font-size: 30px;
+    font-family: var(--head-font);
+
+}
+.wed-time{
+    font-size: 26px;
+    font-family: var(--para-font);
+    margin-top: 40px;
+    color: #353535;
+}
+.wed-para{
+    font-size: 17px;
+    color: #747e8c;
+    font-family: var(--para-font);
+}
+.wedd-icon{
+    margin-top: 40px;
+    padding-bottom: 50px;
+    /* border-bottom: 1px solid gray; */
+}
+.wedding-icon{
+    padding-bottom: 50px;
+}
+.back{
+    
+    background-image: url(../images/background/rsvp.jpg);
+    background-size: 100% 100%;
+}
+.right{
+    color: white;
+    margin-top: 100px;
+
+}
+.org{
+    font-size: 18px;
+    font-family: var(--para-font);
+}
+.right h1{
+    font-family: var(--head-font);
+    font-size: 36px;
+}
+.right-para{
+    font-size: 18px;
+    font-family: var(--para-font);
+    margin-top: 30px;
+}
+.left-one{
+    /* background-color: wheat; */
+    background-color: white;
+    box-shadow: 0px 5px 30px rgb(53 53 53 / 6%);
+    /* width: 550px; */
+    height: 700px;
+}
+.rsvp{
+    padding-top: 90px;
+    font-size: 18px;
+    font-family: var(--para-font);
+    color: #d48f4c;
+
+}
+.form-icon{
+    margin-left: 90px;
+    padding-bottom: 10px;
+}
+.name{
+    width: 200px;
+    height: 40px;
+    margin-left: 45px;
+    margin-top: 20px;
+    background-color: white;
+    color: #747e8c;;
+   
+}
+.drop{
+    width: 300px;
+}
+.attend-btn{
+    width: 150px;
+    height: 45px;
+    margin-left: 70px;
+    margin-top: 40px;
+    background-color: #d48f4c;
+    font-size: 18px;
+    font-family: var(--head-font);
+    border: none;
+    color: white;
+}
+.location-section
+{
+    margin-top: 140px;
+}
+.card-section{
+    margin-top: 100px;
+}
+.ceremony{
+    font-size: 26px;
+    font-family: var(--head-font);
+    margin-top: 30px;
+    color: #353535;
+}
+.ceremony-time{
+    font-size: 17px;
+    font-family: var(--para-font);
+    color:#747e8c;
+}
+.card-box{
+   
+    /* width: 260px; */
+    height: 270px;
+    padding-top: 30px;
+   
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0,0.15);  
+}
+
+.end-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.copy{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-family: var(--para-font);
+    color: #747e8c;
+}
+.last-icon {
+    /* font-size: 20px; */
+    height: 40px;
+    width: 40px;
+    border: 1px solid #e1e1e1;
+    font-size: 15px;
+    color: #747e8c;
+    border-radius: 50%;
+}
+.last-icon:hover{
+    background-color:#d48f4c;
+    color: white;
+}
+.last-icon i{
+    position: relative;
+    top: 8px;
+}
+.xyz-img{
+    height: 80px;
+    width: 80px;
+    margin-left: 100px;
+}
+
+
+@media (min-width:768px){
+
+    .xyz-img{
+        height: 100px;
+        width: 100px;
+        margin-left: 130px;
+    }
+    .menubar-ham{
+        display: none;
+        position: absolute;
+        left: 30px ;
+        top: 160px;
+        width: 91%;
+        height: 100%;
+        z-index: 4;
+        background-color: #d48f4c;
+      
+    }
+    
+    .menu-bar1{
+         position: relative;
+        top: 130px;
+       
+    }
+    .menu-bar1 li{
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .menu-bar1 li a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+       
+    }
+    .ham-ser{
+        /* margin-left: 330px; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .hamburger{
+        font-size: 30px; 
+    }
+    .search1{
+        font-size: 25px;
+    }
+    .back-content{
+        color: white; 
+        padding-top: 150px;
+    }
+    .couple-img{
+        width: 350px;
+        height: 350px;
+        margin-top: 90px;
+        margin-left: 170px;
+    }
+    .date-section{
+        margin-top: 100px;
+    }
+    .galllery-title{
+        background-image: url(../images/background/gallery-title.jpg);
+        background-size: 100% 100%;
+        height: 350px;
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    .our-gal{
+        padding-top:100px;
+    }
+    .gal-1{
+        width: 290px;
+        height: 350px;
+        margin-left: 54px;
+        margin-bottom: 25px;
+    }
+    .gal-2{
+        width: 290px;
+        height:220px ;
+        margin-left: 54px;
+        margin-bottom: 25px;
+    }
+    .gal-3{
+        width: 290px;
+        height: 350px;
+        margin-left: 54px;
+        margin-bottom: 25px;
+    }
+    .gal-4{
+        width: 290px;
+        height:220px ;
+        margin-left: 54px;
+        margin-bottom: 25px;
+    }
+    .imgsec-one{
+       
+    
+    }
+    .gal-5{
+        width: 290px;
+        height:220px ;
+        margin-left:32px;
+        margin-bottom: 25px;
+    }
+    .gal-6{
+        width: 290px;
+        height: 350px;
+        margin-left:32px;
+        margin-bottom: 25px;
+    }
+    .gal-7{
+        width: 290px;
+        height:220px ;
+        margin-left:32px;
+        margin-bottom: 25px;
+    
+    }
+    .gal-8{
+        width: 290px;
+        /* margin: 0 auto; */
+        height: 350px;
+        margin-left: 32px;
+        margin-bottom: 25px;
+    }
+    .galllery{
+        position: relative;
+        top: -50px;
+    }
+    .icon-con-two, .icon-con-2{
+        display: block;
+    }
+  
+    .left-one{
+        /* background-color: wheat; */
+        background-color: white;
+        box-shadow: 0px 5px 30px rgb(53 53 53 / 6%);
+        /* width: 550px; */
+        height: 750px;
+    
+    }
+    .form-icon{
+        margin-left: 120px;
+        padding-bottom: 10px;
+    }
+    .name{
+        width: 250px;
+        height: 35px;
+        margin-left: 50px;
+        margin-top: 20px;
+        background-color: white;
+        color: #747e8c;;  
+    }
+    .attend-btn{
+        width: 150px;
+        height: 45px;
+        margin-left: 100px;
+        margin-top: 40px;
+        background-color: #d48f4c;
+        font-size: 18px;
+        font-family: var(--head-font);
+        border: none;
+    }
+    .card-box{
+   
+        /* width: 260px; */
+        height: 300px;
+        width: 400px;
+        padding-top: 30px;
+       
+        box-shadow: 0px 0px 5px  rgba(0, 0, 0,0.15);  
+    }
+    .loc-card{
+        margin-left: 130px;
+    }
+    .girl h1, .boy h1{
+        font-size: 40px;
+        font-family: var(--head-font);
+        color: #353535;
+      
+    }
+    .benifit{
+        font-family: var(--para-font);
+        font-size: 20px;
+        margin-top: 20px;
+        color: #747e8c;
+    }
+    .three-icon i{
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .slasline{
+        font-size: 60px;
+        color: #d48f4c;
+    }
+  
+    
+}
+
+@media (min-width:992px){
+
+    .xyz-img{
+        height: 100px;
+        width: 100px;
+        margin-left: 120px;
+    }
+    
+    .hamburger, .ham-ser,.search1{
+        display: none;
+    }
+  
+    .loc-card{
+        margin-left: 5px;
+    }
+    .couple-img{
+        width: 350px;
+        height: 350px;
+        margin-top: 90px;
+        margin-left: 10px;
+    }
+    
+
+.back-img{
+   width:90%;
+   margin: 0 auto;
+    height:700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url(../images/background/hero-bg.jpg);
+    background-size: 100% 100%;
+}
+.logo{
+      margin-top: 50px;
+}
+/* .break{
+    display: block;
+} */
+.back{
+    background-image: url(../images/background/);
+}
+.menu-bar{
+    margin-left: 140px;
+    /* margin-top: 15px; */
+
+}
+.menu-bar li a{
+    /* color: #b5b5b5; */
+    color: #353535;
+    font-family: var(--head-font);
+    font-size: 18px;
+}
+.menu-bar li a:hover{
+    /* color: #b5b5b5; */
+    color: #d48f4c;
+}
+.search{
+    color:#b5b5b5 ;
+    font-size: 18px;
+    margin-left: 10px;  
+}
+.search:hover{
+    color: #d48f4c;
+}
+.navigation ul li a{
+    margin-left: 40px; 
+}
+.nav-bar{
+    text-align: center;
+}
+.back-content{
+    color: white; 
+}
+.back-content {
+  padding-top: 200px;
+}
+.sep{
+    font-size: 30px;
+    font-family: var(--head-font);
+}
+.back-content h1{
+    font-size: 70px;
+    font-family: var(--head-font);
+}
+.back-para{
+    font-size: 20px;
+    font-family: var(--para-font);
+    margin-top: 20px;
+}
+.now-btn{
+    width: 150px;
+    height: 45px;
+    background-color: #d48f4c;
+    border: none;
+    color: white;
+    font-family: var(--head-font);
+    font-size: 18px;
+    margin-top: 20px;
+}
+.story{
+    margin-top: 80px;
+}
+.save{
+    font-size: 17px;
+    font-family: var(--para-font);
+    color: #747e8c;
+}
+.our{
+    font-size: 36px;
+    font-family: var(--head-font);
+    margin-bottom: 20px;
+    color:#353535;
+}
+.couple-img{
+    width: 400px;
+    height: 400px;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+.girl h1, .boy h1{
+    font-size: 30px;
+    font-family: var(--head-font);
+    color: #353535;
+}
+.benifit{
+    font-family: var(--para-font);
+    font-size: 17px;
+    margin-top: 20px;
+    color: #747e8c;
+}
+.girl-boy{
+    margin-top: 60px;
+}
+.girl, .boy{
+    margin-top: 100px;
+}
+.three-icon i{
+    margin-left: 15px;
+    font-size: 18px;
+    color: #212529;
+}
+.girl{
+    margin-right: 40px;
+}
+.date-section{
+    margin-top: 50px;
+}
+.date-con {
+    margin-top: 40px;
+    
+}
+.time-con h1{
+    font-size: 72px;
+    font-family: var(--head-font);
+     color: #353535;
+}
+.time-con p{
+    font-size: 20px;
+    color: #747e8c;
+}
+.galllery-title{
+    background-image: url(../images/background/gallery-title.jpg);
+    background-size: 100% 100%;
+    height: 450px;
+    width: 90%;
+    
+}
+.our-gal{
+    padding-top:100px;
+}
+.gal-1{
+    width: 205px;
+    height: 300px;
+    position: relative;
+    top: -80px;
+    /* left: 1px; */
+    margin-bottom: 25px;
+}
+.gal-2{
+    width: 205px;
+    height:180px ;
+    position: relative;
+    top: -80px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+}
+.gal-3{
+    width: 205px;
+    height: 300px;
+    position: relative;
+    top: -80px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+}
+.gal-4{
+    width: 205px;
+    height:180px ;
+    position: relative;
+    top: -80px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+    
+}
+.imgsec-one{
+    position: relative;
+    right:22px;
+
+}
+.gal-5{
+    width: 205px;
+    height:180px ;
+    position: relative;
+    top: -80px;
+    margin-left: 54px;
+    margin-bottom: 25px;
+}
+.gal-6{
+    width: 205px;
+    height: 300px;
+    position: relative;
+    top: -200px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+}
+.gal-7{
+    width: 205px;
+    height:180px ;
+    position: relative;
+    top: -80px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+
+}
+.gal-8{
+    width: 205px;
+    height: 300px;
+    position: relative;
+    top: -200px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+}
+.org-section{
+    margin-bottom: 100px;
+}
+.galllery{
+    height: 520px;
+}
+.wedding-con h2{
+    font-size: 30px;
+    font-family: var(--head-font);
+
+}
+.wed-time{
+    font-size: 26px;
+    font-family: var(--para-font);
+    margin-top: 40px;
+    color: #353535;
+}
+.wed-para{
+    font-size: 17px;
+    color: #747e8c;
+    font-family: var(--para-font);
+}
+.wedd-icon{
+    margin-top: 40px;
+    padding-bottom: 50px;
+    /* border-bottom: 1px solid gray; */
+}
+.wedding-icon{
+    padding-bottom: 50px;
+
+}
+
+.back{
+    background-image: url(../images/background/rsvp.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    
+   
+}
+.right{
+    color: white;
+    margin-top: 80px;
+
+}
+.org{
+    font-size: 18px;
+    font-family: var(--para-font);
+}
+.right h1{
+    font-family: var(--head-font);
+    font-size: 36px;
+}
+.right-para{
+    font-size: 18px;
+    font-family: var(--para-font);
+    margin-top: 30px;
+}
+
+
+.left-one{
+    /* background-color: wheat; */
+    background-color: white;
+    box-shadow: 0px 5px 30px rgb(53 53 53 / 6%);
+    width: 450px;
+    height: 700px;
+    position: relative;
+    top: -50px;
+    /* left: 150px; */
+}
+.rsvp{
+    padding-top: 90px;
+    font-size: 18px;
+    font-family: var(--para-font);
+    color: #d48f4c;
+
+}
+.form-icon{
+    margin-left: 220px;
+    padding-bottom: 10px;
+}
+.name{
+    width: 300px;
+    height: 45px;
+    margin-left: 70px;
+    margin-top: 20px;
+    background-color: white;
+    color: #747e8c;;
+   
+}
+.drop{
+    width: 300px;
+}
+.attend-btn{
+    width: 150px;
+    height: 45px;
+    margin-left: 150px;
+    margin-top: 40px;
+    background-color: #d48f4c;
+    font-size: 18px;
+    font-family: var(--head-font);
+    border: none;
+}
+.location-section
+{
+    margin-top: 140px;
+}
+.card-section{
+    margin-top: 100px;
+}
+.ceremony{
+    font-size: 26px;
+    font-family: var(--head-font);
+    margin-top: 30px;
+    color: #353535;
+}
+.ceremony-time{
+    font-size: 17px;
+    font-family: var(--para-font);
+    color:#747e8c
+}
+.card-box{
+   
+    width: 290px;
+    height: 270px;
+    padding-top: 30px;
+   
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0,0.15);  
+}
+.end-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.copy{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-family: var(--para-font);
+    color: #747e8c;
+}
+.last-icon {
+    /* font-size: 20px; */
+    height: 40px;
+    width: 40px;
+    border: 1px solid #e1e1e1;
+    font-size: 15px;
+    color: #747e8c;
+    border-radius: 50%;
+}
+.last-icon i{
+    position: relative;
+    top: 8px;
+}
+
+}
+
+    
+
+
+
+
+@media(min-width:1200px){
+
+    .xyz-img{
+        height: 100px;
+        width: 100px;
+        margin-left: 140px;
+    }
+    .hamburger, .ham-ser,.search1{
+        display: none;
+    }
+    .icon-con-two, .icon-con-three, .icon-con-four, .icon-con-five, .icon-con2, .icon-con-3, .icon-con-4, .icon-con-5{
+        display: block;
+    }
+    .loc-card{
+        margin-left: 5px;
+    }
+    .couple-img{
+        width: 350px;
+        height: 350px;
+        margin-top: 90px;
+        margin-left: 10px;
+    }
+    
+
+.back-img{
+   width:90%;
+   margin: 0 auto;
+    height:700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)), url(../images/background/hero-bg.jpg);
+
+    background-size: 100% 100%;
+}
+
+.menu-bar{
+    margin-left: 250px;
+    /* margin-top: 15px; */
+
+}
+.break{
+    display: block;
+}
+
+.search{
+    color:#b5b5b5 ;
+    font-size: 18px;
+    margin-left: 10px;  
+}
+.navigation ul li a{
+    margin-left: 40px; 
+}
+.nav-bar{
+    text-align: center;
+}
+.back-content{
+    color: white; 
+}
+.back-content {
+  padding-top: 200px;
+}
+.sep{
+    font-size: 30px;
+    font-family: var(--head-font);
+}
+.back-content h1{
+    font-size: 70px;
+    font-family: var(--head-font);
+}
+.back-para{
+    font-size: 20px;
+    font-family: var(--para-font);
+    margin-top: 20px;
+}
+.now-btn{
+    width: 150px;
+    height: 45px;
+    background-color: #d48f4c;
+    border: none;
+    color: white;
+    font-family: var(--head-font);
+    font-size: 18px;
+    margin-top: 20px;
+}
+.story{
+    margin-top: 80px;
+}
+.save{
+    font-size: 17px;
+    font-family: var(--para-font);
+    color: #747e8c;
+}
+.our{
+    font-size: 36px;
+    font-family: var(--head-font);
+    margin-bottom: 20px;
+    color:#353535;
+}
+.couple-img{
+    width: 480px;
+    height: 500px;
+    margin-top: 50px;
+}
+.girl h1, .boy h1{
+    font-size: 30px;
+    font-family: var(--head-font);
+    color: #353535;
+}
+.benifit{
+    font-family: var(--para-font);
+    font-size: 17px;
+    margin-top: 20px;
+    color: #747e8c;
+}
+.girl-boy{
+    margin-top: 60px;
+}
+.girl, .boy{
+    margin-top: 100px;
+}
+.three-icon i{
+    margin-left: 15px;
+    font-size: 18px;
+    color: #212529;
+}
+.girl{
+    margin-right: 40px;
+}
+.date-section{
+    margin-top: 50px;
+}
+.date-con {
+    margin-top: 40px;
+    
+}
+.time-con h1{
+    font-size: 72px;
+    font-family: var(--head-font);
+     color: #353535;
+}
+.time-con p{
+    font-size: 20px;
+    color: #747e8c;
+}
+.galllery-title{
+    background-image: url(../images/background/gallery-title.jpg);
+    background-size: 100% 100%;
+    height: 450px;
+    
+}
+.our-gal{
+    padding-top:100px;
+}
+.gal-1{
+    width: 267px;
+    height: 350px;
+    position: relative;
+    top: -130px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+}
+.gal-2{
+    width: 267px;
+    height:180px ;
+    position: relative;
+    top: -130px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+}
+.gal-3{
+    width: 267px;
+    height: 350px;
+    position: relative;
+    top: -130px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+}
+.gal-4{
+    width: 267px;
+    height:180px ;
+    position: relative;
+    top: -130px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+    
+}
+.imgsec-one{
+    position: relative;
+    right:5px;
+
+}
+.gal-5{
+    width: 267px;
+    height:180px ;
+    position: relative;
+    top: -130px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+}
+.gal-6{
+    width: 267px;
+    height: 350px;
+    position: relative;
+    top: -299px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+}
+.gal-7{
+    width: 267px;
+    height:180px ;
+    position: relative;
+    top: -130px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+
+}
+.gal-8{
+    width: 267px;
+    height: 350px;
+    position: relative;
+    top: -299px;
+    margin-left: 1px;
+    margin-bottom: 25px;
+}
+.org-section{
+    margin-bottom: 100px;
+}
+.galllery{
+    height: 520px;
+}
+.wedding-con h2{
+    font-size: 30px;
+    font-family: var(--head-font);
+
+}
+.wed-time{
+    font-size: 26px;
+    font-family: var(--para-font);
+    margin-top: 40px;
+    color: #353535;
+}
+.wed-para{
+    font-size: 17px;
+    color: #747e8c;
+    font-family: var(--para-font);
+}
+.wedd-icon{
+    margin-top: 40px;
+    padding-bottom: 50px;
+    /* border-bottom: 1px solid gray; */
+}
+.wedding-icon{
+    padding-bottom: 50px;
+
+}
+
+.back{
+    background-image: url(../images/background/rsvp.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    
+   
+}
+.right{
+    color: white;
+    margin-top: 160px;
+
+}
+.org{
+    font-size: 18px;
+    font-family: var(--para-font);
+}
+.right h1{
+    font-family: var(--head-font);
+    font-size: 36px;
+}
+.right-para{
+    font-size: 18px;
+    font-family: var(--para-font);
+    margin-top: 30px;
+}
+
+
+.left-one{
+    /* background-color: wheat; */
+    background-color: white;
+    box-shadow: 0px 5px 30px rgb(53 53 53 / 6%);
+    width: 550px;
+    height: 700px;
+    position: relative;
+    top: -50px;
+    left: 150px;
+}
+.rsvp{
+    padding-top: 90px;
+    font-size: 18px;
+    font-family: var(--para-font);
+    color: #d48f4c;
+
+}
+.form-icon{
+    margin-left: 220px;
+    padding-bottom: 10px;
+}
+.name{
+    width: 400px;
+    height: 45px;
+    margin-left: 70px;
+    margin-top: 20px;
+    background-color: white;
+    color: #747e8c;;
+   
+}
+.drop{
+    width: 300px;
+}
+.attend-btn{
+    width: 150px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: #d48f4c;
+    font-size: 18px;
+    font-family: var(--head-font);
+    border: none;
+}
+.location-section
+{
+    margin-top: 140px;
+}
+.card-section{
+    margin-top: 100px;
+}
+.ceremony{
+    font-size: 26px;
+    font-family: var(--head-font);
+    margin-top: 30px;
+    color: #353535;
+}
+.ceremony-time{
+    font-size: 17px;
+    font-family: var(--para-font);
+    color:#747e8c
+}
+.card-box{
+   
+    width: 340px;
+    height: 270px;
+    padding-top: 30px;
+   
+    box-shadow: 0px 0px 5px  rgba(0, 0, 0,0.15);  
+}
+.end-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.copy{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-family: var(--para-font);
+    color: #747e8c;
+}
+.last-icon {
+    /* font-size: 20px; */
+    height: 40px;
+    width: 40px;
+    border: 1px solid #e1e1e1;
+    font-size: 15px;
+    color: #747e8c;
+    border-radius: 50%;
+}
+.last-icon i{
+    position: relative;
+    top: 8px;
+}
+
+
+}

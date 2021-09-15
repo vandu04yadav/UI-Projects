@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dashboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+        <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="stylesheet">
+
+<!-- <link href="css/fakescroll.css"  type="text/css"> -->
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+        
+
+
+        <section class="main">
+
+            <section class="container-fluid wrap-left-right foo foo--outside">
+                <section class="row row-cols-lg-2">
+
+                    <section class="left-section col-lg-3 left-section-2 fakeScroll">
+                        <section class="menu">
+                              <section class="d-flex justify-content-between d-lg-none">
+                                  <section>
+                                      <section><img class="logo" src="./images/background/logo.png"></section>
+                                  </section>
+                                  <section class="hamburger1 mt-3"><i class="fas fa-bars"></i></section>
+
+                                  
+
+                              </section>
+                            <section class="toggle-menu">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="">
+                                      <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                          <button class="btn head btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <span class="mr-3"><i class="fas fa-cog"></i></span>Dashboard
+                                          </button>
+                                        </h2>
+                                      </div>
+                                  
+                                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                          <ul class="dash1 list-unstyled">
+                                              <li class=""><a href="">Dashboard1</a></li>
+                                              <li class=""><a class="one" href="">Dashboard2</a></li>
+                                              <li><a href="">Dashboard3</a></li>
+                                              <li><a href="">Dashboard4</a></li>
+                                              <li><a href="">Skin Generator</a></li>
+                                              <li><a href="">Update Highlights</a></li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="" class="">
+                                      <div class="card-header" id="headingtwo">
+                                        <h2 class="mb-0">
+                                          <button class="btn head btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                                            <span class="mr-3"><i class="fas fa-laptop"></i></span>Layouts
+                                          </button>
+                                        </h2>
+                                      </div>
+                                  
+                                      <div id="collapsetwo" class="collapse show" aria-labelledby="headingtwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                          <ul class="dash1 list-unstyled">
+                                            <li><a href="">Layout Variants & API</a></li>
+                                            <li><a href="">Collapsed Sidebar</a></li>
+                                            <li><a href="">Static Sidebar</a></li>
+                                            <li><a href="">Horizontal Menu</a></li>
+                                            <li><a href="">Horizontal Sidebar Menu</a></li>
+                                            <li><a href="">Horizontal on clock</a></li>
+                                            <li><a href="">Right Sidebar</a></li>
+                                            <li><a href="">Chat Open</a></li>
+                                            <li><a href="">Both Menus & Collapsed</a></li>
+                                            <li><a href="">Box layout</a></li>
+                                            <li><a href="">Box & Horizontal Menu</a></li>
+                                        </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+
+
+
+                                   <div class="">
+                                      <div class="card-header" id="headingthree">
+                                        <h2 class="mb-0">
+                                          <button class="btn head btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+                                            <span class="mr-3"><i class="far fa-newspaper"></i></span>UI Element
+                                          </button>
+                                        </h2>
+                                      </div>
+                                  
+                                      <div id="collapsethree" class="collapse show" aria-labelledby="headingthree" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                          <ul class="dash1 list-unstyled">
+                                              <li class=""><a href="">Panels</a></li>
+                                              <li class=""><a href="">Button</a></li>
+                                              <li><a href="">Tabs Accordians</a></li>
+                                              <li><a href="">Models</a></li>
+                                              <li><a href="">Breadcrumbs</a></li>
+                                              <li><a href="">Blockquote</a></li>
+                                              <li><a href="">Progress Bars</a></li>
+                                              <li><a href="">Navbars</a></li>
+                                              <li><a href="">Alerts</a></li>
+                                              <li><a href="">Pagination</a></li>
+                                              <li><a href="">Typography</a></li>
+                                              <li><a href="">Other Elements</a></li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="">
+                                      <div class="card-header" id="headingfour">
+                                        <h2 class="mb-0">
+                                          <button class="btn head btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+                                            <span class="mr-3"><i class="far fa-star"></i></span>Widgets
+                                          </button>
+                                        </h2>
+                                      </div>
+                                 
+                                      <div id="collapsefour" class="collapse show" aria-labelledby="headingfour" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                          <ul class="dash1 list-unstyled">
+                                              <li class=""><a href="">Panels</a></li>
+                                              <li class=""><a href="">Button</a></li>
+                                              <li><a href="">Tabs Accordians</a></li>
+                                              <li><a href="">Models</a></li>
+                                              <li><a href="">Breadcrumbs</a></li>
+                                              <li><a href="">Blockquote</a></li>
+                                              <li><a href="">Progress Bars</a></li>
+                                              <li><a href="">Navbars</a></li>
+                                              <li><a href="">Alerts</a></li>
+                                              <li><a href="">Pagination</a></li>
+                                              <li><a href="">Typography</a></li>
+                                              <li><a href="">Other Elements</a></li>
+                                          </ul>
+                                        </div>
+                                      </div> 
+                                    </div>
+
+                                    <div class="">
+                                      <div class="card-header" id="headingfive">
+                                        <h2 class="mb-0">
+                                          <button class="btn head btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+                                            <span class="mr-3"><i class="far fa-envelope"></i></span>Mailbox
+                                          </button>
+                                        </h2>
+                                      </div>
+                               
+                                      <div id="collapsefive" class="collapse show" aria-labelledby="headingfive" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                          <ul class="dash1 list-unstyled">
+                                              <li class=""><a href="">Inbox</a></li>
+                                              <li class=""><a href="">Compose Message</a></li>
+                                              <li><a href="">View Message</a></li>                                            
+                                          </ul>
+                                        </div>
+                                      </div> 
+                                    </div>
+
+                                    <div class="">
+                                      <div class="card-header" id="headingsix">
+                                        <h2 class="mb-0">
+                                          <button class="btn head btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsesix" aria-expanded="true" aria-controls="collapsesix">
+                                            <span class="mr-3"><i class="fas fa-coins"></i></span>Table
+                                          </button>
+                                        </h2>
+                                      </div>
+                               
+                                      <div id="collapsesix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                          <ul class="dash1 list-unstyled">
+                                              <li class=""><a href="">Basic Tables</a></li>
+                                              <li class=""><a href="">Responsive Table</a></li>
+                                              <li><a href="">Data</a></li>                                            
+                                          </ul>
+                                        </div>
+                                      </div> 
+                                    </div>
+
+                                    <div class="">
+                                      <div class="card-header" id="headingseven">
+                                        <h2 class="mb-0">
+                                          <button class="btn head btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseseven" aria-expanded="true" aria-controls="collapseseven">
+                                            <span class="mr-3"><i class="fas fa-grip-lines-vertical"></i></span>Forms
+                                          </button>
+                                        </h2>
+                                      </div>
+                               
+                                      <div id="collapseseven" class="collapse show" aria-labelledby="headingseven" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                          <ul class="dash1 list-unstyled">
+                                              <li class=""><a href="">Native Element</a></li>
+                                              <li class=""><a href="">Advance Plugins</a></li>
+                                              <li><a href="">Form Wizard</a></li>
+                                              <li><a href="">Form Validation</a></li>  
+                                              <li><a href="">Input Masks</a></li>  
+                                              <li><a href="">File Upload</a></li>                                                   
+                                          </ul>
+                                        </div>
+                                      </div> 
+                                    </div>
+
+                                    <div class="">
+                                      <div class="card-header" id="headingeight">
+                                        <h2 class="mb-0">
+                                          <button class="btn head btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseeight" aria-expanded="true" aria-controls="collapseeight">
+                                            <span class="mr-3"><i class="fas fa-flask"></i></span>Extra
+                                          </button>
+                                        </h2>
+                                      </div>
+                               
+                                      <div id="collapseeight" class="collapse show" aria-labelledby="headingeight" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                          <ul class="dash1 list-unstyled">
+                                              <li class=""><a href="">Icons</a></li>
+                                              <li class=""><a href="">Advance Plugins</a></li>
+                                              <li><a href="">Maps</a></li>
+                                              <li><a href="">Members</a></li>  
+                                              <li><a href="">Gallary</a></li>  
+                                              <li><a href="">Calender</a></li>
+                                              <li><a href="">Profile</a></li>
+                                              <li><a href="">login</a></li>                                                            
+                                          </ul>
+                                        </div>
+                                      </div> 
+                                    </div>
+
+                                    <div class="">
+                                      <div class="card-header" id="headingnine">
+                                        <h2 class="mb-0">
+                                          <button class="btn head btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsenine" aria-expanded="true" aria-controls="collapsenine">
+                                            <span class="mr-3"><i class="fas fa-chart-bar"></i></span>Charts
+                                          </button>
+                                        </h2>
+                                      </div>
+                               
+                                      <div id="collapsenine" class="collapse show" aria-labelledby="headingnine" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                          <ul class="dash1 list-unstyled">
+                                              <li class=""><a href="">Charts</a></li>
+                                              <li class=""><a href="">Chart Variants</a></li>
+                                              <li><a href="">Range Selector</a></li>
+                                              <li><a href="">Map charts</a></li>  
+                                              <li><a href="">Gallary</a></li>  
+                                              <li><a href="">Calender</a></li>
+                                              <li><a href="">Profile</a></li>
+                                              <li><a href="">login</a></li>                                                            
+                                          </ul>
+                                        </div>
+                                      </div> 
+                                    </div>
+
+                                    <div class="">
+                                      <div class="card-header" id="headingten">
+                                        <h2 class="mb-0">
+                                          <button class="btn head btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseten" aria-expanded="true" aria-controls="collapseten">
+                                            <span class="mr-3"><i class="fab fa-mixcloud"></i></span>Menu Level
+                                          </button>
+                                        </h2>
+                                      </div>
+                               
+                                      <div id="collapseten" class="collapse show" aria-labelledby="headingten" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                          <ul class="dash1 list-unstyled">
+                                             
+                                              <li class=""><a href="">Menu Level 1.1</a></li>
+                                              <li><a href="">Menu Level 1.2</a></li>
+                                              <li><a href="">Menu Level 1.3</a></li>  
+                                                                                                        
+                                          </ul>
+                                        </div>
+                                      </div> 
+                                    </div>
+
+
+                                  </div>
+                            </section>
+                        </section>
+                    </section>
+
+
+
+                    <section class="right-section col-lg-9 ml-0 mr-0 pl-0 pr-0 ">
+
+                        <section class="navigation d-none d-lg-flex justify-content-lg-between">
+                            <section class="nav1 d-flex">
+                                <section class="message-icon pl-3 pr-lg-3 nav1-icon ham"><a href="#"><i class="fas fa-bars"></i></a></section>
+                                <section class="message-icon pr-lg-3"><a href=""><i class="far fa-envelope"></i></a></section>
+                                <section class="message-icon"><a href=""><i class="far fa-bell"></i></a></section>
+                                <section class="dropdown">
+                                  <button type="button" class="menu blog drop-option btn dropdown-toggle ml-xl-5" data-toggle="dropdown"> <span><img src="./images/illustrations/flag-uk.png"></span> English</button>
+                                    <section class="dropdown-menu">
+                                        <a href="#" class="dropdown-item"> <span><img src="./images/illustrations/flag-uk.png"></span> Shqip</a>
+                                        <a href="#" class="dropdown-item"> <span><img src="./images/illustrations/flag-uk.png"></span> Deutsch<a>
+                                        <a href="#" class="dropdown-item"> <span><img src="./images/illustrations/flag-uk.png"></span> Francais</a> 
+                                        <a href="#" class="dropdown-item"> <span><img src="./images/illustrations/flag-uk.png"></span> Portugues</a> 
+                                        <a href="#" class="dropdown-item"> <span><img src="./images/illustrations/flag-uk.png"></span> Espanol</a> 
+                                    </section>
+                                </section>
+                                
+                                    <!-- <div class="container d-flex">
+                                      <div class="square square-dark" onclick="dark()"></div>
+                                      <div class="square square-light" onclick="light()"></div>
+                                    </div> -->
+                            </section>
+
+                            <section class="nav2 d-flex">
+                                <section class="search-icon"><a href=""><i class="fas fa-search"></i></a></section>
+                                <section>
+                                    <section class="dropdown">
+                                        <button type="button" class="menu blog drop-option btn dropdown-toggle ml-xl-5" data-toggle="dropdown"><span><img class="rounded-pill user" src="./images/background/user-4.png"></span>Jhon Smith</button>
+                                        <section class="dropdown-menu">
+                                            <a href="#" class="dropdown-item">New Post</a>
+                                            <a href="#" class="dropdown-item">Setting<a>
+                                            <a href="#" class="dropdown-item">Profile</a> 
+                                            <a href="#" class="dropdown-item">Help</a> 
+                                            <a href="#" class="dropdown-item">Logout</a> 
+                                        </section>
+                                    </section>
+                                </section>
+                                <section class="message-icon pr-lg-3"><a href=""><i class="far fa-comments"></i></a></section>
+                            </section>
+                        </section>
+
+                        <section class="graph-section d-xl-flex justify-content-xl-around">
+
+                          <section class="d-md-flex justify-content-lg-around d-xl-block">
+
+                                <section class="grap1 d-flex justify-content-around">
+                                  <section class="cloud-sec"><i class="fab fa-mixcloud"></i></section>
+                                   <section>
+                                    <section class="mt-2 d-flex">
+                                          <section>
+                                            <h4 class="numcount">99.9</h4>
+                                          </section>
+                                          <section>%</section>                                  
+                                    </section>
+                                    <section><p>SERVER UPTIME</p></section>
+                                    </section>
+                                  
+                                </section>
+
+                                <section class="mt-xl-4 d-flex justify-content-around grap1 mt-3 mt-md-0">
+                                  <section class="user-sec pl-xl-1"><i class="far fa-user"></i></section>
+                                  <section>
+                                      <section class="mt-2 d-flex">
+                                        <section><h4 class="numcount">117 </h4></section><section class="k">k</section>                                 
+                                      </section>
+                                      <section><p>SERVER UPTIME</p></section>
+                                    </section>
+                                  
+                                </section>
+
+                                <section class="mt-xl-4 mr-lg-2 mr-xl-0 d-flex justify-content-around grap1 mt-3 mt-md-0">
+                                  <section class="camera-sec pt-xl-1"><i class="fas fa-camera-retro"></i></section>
+                                  <section class="mt-2">
+                                    <h4 class="numcount">2,470</h4>
+                                    <p>SERVER UPTIME</p>
+                                  </section>
+                                </section>
+
+                          </section>
+
+
+                                <section class="graph2 ml-2 ml-md-3 ml-xl-0 mt-md-4 mt-xl-0"> 
+                                  <section class="graph2-wid d-md-flex justify-content-md-between">
+                                      <!-- <section class="mt-3 ml-3 ml-xl-5">
+                                          <h4>14.85%</h4>
+                                          <p>More visitors</p>
+                                      </section> -->
+                                      <!-- <section class="mt-3 ml-3 ml-md-0 mr-md-4 mr-xl-5">
+                                        <p><span><i class="fas fa-square-full mr-3 greencheck"></i></span>Pageview</p>
+                                        <p><span><i class="fas fa-square-full mr-3"></i></span>visitors</p>
+                                      </section> -->
+                                  </section>
+                                  <section id="chart" class="w-100 chart-h" ></section>
+                                </section>
+
+                                <section class="d-md-flex d-xl-block">
+                                    <section class="graph3 ml-2 ml-md-3 mt-4 ml-xl-0 mt-xl-0">
+                                        <section class="pt-2 pl-3 d-flex">
+                                            <section><h4 class="numcount">95</h4></section><section><span class="d-inline ml-1 num-per">%</span></section>                                 
+                                        </section>
+                                        <p class="ml-3">CURRENT SERVER UPTIME</p>
+                                        <section id=chart1 class="char1"></section>   
+                                    </section>
+
+                                    <section class="graph4 d-flex ml-2 ml-md-3 mt-md-4 ml-xl-0">
+                                      <section class="pt-4 pl-3">
+                                          <h4 class="numcount">320,45</h4>
+                                          <p>AVG OF SALES</p> 
+                                       </section>
+                                       <section id="chart3" class="pt-3"></section>
+                                </section>
+
+                                
+                            
+                        </section>
+
+                    </section>
+
+                        <section class="pie-sec ml-2">
+                          <section class="d-lg-flex justify-content-lg-around">
+
+                            <section class="pie1 ml-md-3 ml-lg-0" >
+                              <section id="chart10">
+                               
+                              </section>
+
+                            </section>
+
+                            <section class="pie2 ml-2 ml-md-3 d-md-flex justify-content-md-between d-lg-block">
+                              <section class="speed pt-3 pl-3">
+                                <section>
+                                    <h4>Profiles</h4>                               
+                                    <!-- <p>Admin</p> -->
+                                </section>
+
+                                
+                                <section class="d-xl-flex justify-content-xl-around mt-xl-4 owl-carousel wedd-icon">
+                                      <section class="item profile-card ml-xl-2">
+                                            <section class="">
+                                              <h5 class="pt-5 pl-3 creative">CREATIVE CONFIDENCE</h5>
+                                              <span class="pl-3 d-block mt-4 natasha">Natasha Rose</span>
+                                              <span class="pl-3 d-block natasha">Lorem ipsum dolor sit</span>
+                                            </section>
+                                            <section class="d-flex justify-content-around ml-3 mt-4">
+                                                <section class="mt-3 video-icon"><i class="fas fa-play"></i></section>
+                                                <section>
+                                                  <img class="profile" src="./images/background/user-4.png">
+                                                </section>
+                                            </section>
+                                      </section>
+
+                                      <section class="profile-card2 item">
+                                        <section class="">
+                                          <h5 class="pt-5 pl-3 creative">CREATIVE CONFIDENCE</h5>
+                                          <span class="pl-3 d-block mt-4 natasha">Natasha Rose</span>
+                                          <span class="pl-3 d-block natasha">Lorem ipsum dolor sit</span>
+                                        </section>
+                                        <section class="d-flex justify-content-around ml-3 mt-4">
+                                          <section class="mt-3 video-icon2"><i class="fas fa-play"></i></section>
+                                            <section>
+                                              <img class="profile" src="./images/background/user-4.png">
+                                            </section>
+                                        </section>
+                                  </section>
+
+                                  <section class="profile-card3 item">
+                                    <section class="">
+                                      <h5 class="pt-5 pl-3 creative">CREATIVE CONFIDENCE</h5>
+                                      <span class="pl-3 d-block mt-4 natasha">Natasha Rose</span>
+                                      <span class="pl-3 d-block natasha">Lorem ipsum dolor sit</span>
+                                    </section>
+                                    <section class="d-flex justify-content-around ml-3 mt-4">
+                                      <section class="mt-3 video-icon3"><i class="fas fa-play"></i></section>
+                                        <section>
+                                          <img class="profile" src="./images/background/user-4.png">
+                                        </section>
+                                    </section>
+                                  </section>
+                              </section>
+                       
+                           
+                              </section>
+                            
+
+                              <!-- <section class="cpu d-flex pt-3 pl-3 mt-3 mt-md-0 mt-lg-3">
+                                     <section>
+                                        <h4>67.35%</h4>
+                                        <p>CPU USAGE</p>
+                                        <p class="pt-2">Sentiments two occasional affronting<span class="break"> solicitude travelling and one contrasted. </span>Fortune day out married parties.</p>
+                                     </section>
+                                      <section class="cpu-use">
+                                        
+                                      </section>
+                              </section> -->
+                            </section>
+
+                          </section>
+                        </section>
+
+
+                        <footer>
+                          <section class="mt-4 d-md-flex justify-content-md-between">
+                              <section class="pl-4 copyright">
+                                <p>© 2021 Xenon theme by Vandana Yadav</p>
+                              </section>
+                              <section class="msg-sec d-md-flex justify-content-md-around">
+                                    <section class="msgone mr-md-2 ml-3 ml-md-0 mr-xl-0"><p><span><i class="far fa-comment-dots mr-4 mr-md-2"></i></span>3</p></section>
+                                    <section class="msgone mt-2 mt-md-0 ml-3 ml-md-0 d-flex mr-md-2 mr-xl-0"><span><i class="fas fa-circle mr-4 mr-md-2 dot1"></i></span><p>Art Ramadani</p></section>
+                                    <section class="msgone mt-2 mt-md-0 ml-3 ml-md-0 d-flex mr-md-2 mr-xl-0"><span><i class="fas fa-circle mr-4 mr-md-2 dot2"></i></span><p>Ylli Pylla</p></section>
+                                    <section class="msgone mt-2 mt-md-0 ml-3 ml-md-0 d-flex mr-md-4 mr-xl-0"><span><i class="fas fa-circle mr-4 mr-md-2 dot3"></i></span><p>Arlind Nushi</p></section>
+                              </section>
+                            </section>
+                        </footer>
+
+
+
+
+
+            </section>
+
+        </section>
+
+
+
+
+
+        </section>
+
+
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+   <!-- <script src="js/fakescroll.min.js"></script> -->
+
+
+  
+        <script src="js/script.js"></script>
+    </body>
+</html>
+
+
+
